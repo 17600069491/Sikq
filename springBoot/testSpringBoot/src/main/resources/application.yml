@@ -1,0 +1,24 @@
+#返回的前缀   目录对应src/main/webapp下
+#spring.mvc.view.prefix= /WEB-INF/page
+
+#返回的后缀
+#spring.mvc.view.suffix= .jspspring:
+
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/page/
+      suffix: .jsp
+
+com:
+  dj:
+    name: dj
+    age: 1
+cn:
+  dj:
+    name: zs
+    age: 11
+    sex: 1
+    classroom: 1703
+    num: 001
